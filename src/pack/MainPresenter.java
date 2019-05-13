@@ -16,7 +16,7 @@ import pack.View.ViewObserver;
  *         Komponenten an.
  * 
  *         Alle Anforderungen der Abgabeaufgabe wurden vollstaending erfuellt.
- *         Dar¸ber hinaus wurde das MVP-Pattern strengst moeglich eingehalten
+ *         Dar√ºber hinaus wurde das MVP-Pattern strengst moeglich eingehalten
  *         (lose Kopplung durch Observer) und weitere Zusatzfunktionen
  *         implementiert. Das TextField prueft mit Enter den Pfad und kann
  *         dadurch erneut ModelAlleDateien aufrufen. Der TopDrei-Button kann
@@ -64,7 +64,7 @@ public class MainPresenter implements TopDreiObserver, ViewObserver {
 
 	// ########################
 	// View-MainPresenter Kommunikation
-	// Da eine passive View gew‰hlt wurde, liegt die Kommunikation/Befuellen &
+	// Da eine passive View gew√§hlt wurde, liegt die Kommunikation/Befuellen &
 	// Leeren des TableModels im Main-Presenter. Fuer aktive View, muss eine
 	// Verlagerung in View.java erfolgen.
 	// ########################
@@ -158,8 +158,8 @@ public class MainPresenter implements TopDreiObserver, ViewObserver {
 
 		// Bemerkung: Da Swing-Worker nur einmal verwendet werden kann bevor er
 		// "verbraucht" ist, muss man neue SwingWorker Objekte erzeugen, wenn ein neuer
-		// Durchlauf mˆglich sein soll.
-		// Zur Vollst‰ndigkeit wird dies hier implementiert anhand einer
+		// Durchlauf m√∂glich sein soll.
+		// Zur Vollst√§ndigkeit wird dies hier implementiert anhand einer
 		// Fallunterscheidung des Swingworker-States
 
 		if (this.modelDreiDateien.istSwingWorkerVerbraucht()) {
@@ -193,7 +193,7 @@ public class MainPresenter implements TopDreiObserver, ViewObserver {
 	/**
 	 * Implementierung der Interface-Methode {@link ViewObserver#TextFieldEvent()}
 	 * Bei Bestaetigung des TF Eintrags mittels Enter wird der Pfad geprueft und
-	 * gesetzt. Anschlieﬂend die Hintergrundfarbe auf Weiss oder Rot gesetzt und bei
+	 * gesetzt. Anschlie√üend die Hintergrundfarbe auf Weiss oder Rot gesetzt und bei
 	 * existentem Pfad alle Dateien unter dem gegebenen Pfad gesammelt und ins
 	 * TableModel gefuellt.
 	 * 
