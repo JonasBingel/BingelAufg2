@@ -120,7 +120,7 @@ public class View extends JFrame {
 		// Progress Bar
 		JProgressBar progressBar = new JProgressBar(0, 20);
 		progressBar.setIndeterminate(true);
-		progressBar.setString("l‰uft und l‰uft");
+		progressBar.setString("l√§uft und l√§uft");
 		progressBar.setStringPainted(true);
 
 		pbConstraint.gridx = 1;
