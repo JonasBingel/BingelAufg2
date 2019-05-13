@@ -13,7 +13,7 @@ public class DataSizeRenderer extends DefaultTableCellRenderer {
 	private static final long serialVersionUID = 1L;
 
 	/**
-	 * Aufruf des Super-Konstruktors und rechtsbündige Darstellung.
+	 * Aufruf des Super-Konstruktors und rechtsbÃ¼ndige Darstellung.
 	 */
 	public DataSizeRenderer() {
 		super();
