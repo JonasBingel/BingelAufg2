@@ -21,7 +21,7 @@ public class ModelDatei implements Comparable<ModelDatei> {
 	}
 
 	/**
-	 * Überschriebene compareTo-Methode, die typsicher zwei ModelDateien anhand
+	 * Ãœberschriebene compareTo-Methode, die typsicher zwei ModelDateien anhand
 	 * ihrer Groesse in eine Rangfolge ordnet.
 	 */
 	@Override
