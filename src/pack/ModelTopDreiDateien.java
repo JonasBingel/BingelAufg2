@@ -14,7 +14,7 @@ import javax.swing.SwingWorker;
 /**
  * @author BingelJ ModelTopDreiDateien ist abgeleitet von SwingWorker und bildet
  *         das zweite Model des MVP-Entwurfmusters. Nach Aufruf durch .execute
- *         wird ein separater background-Thread geöffnet, der alle Dateien unter
+ *         wird ein separater background-Thread geÃ¶ffnet, der alle Dateien unter
  *         einem Pfad durchlaueft und die drei aktuell groessten Dateien
  *         published/auf der GUI darstellen laesst.
  * 
@@ -98,8 +98,8 @@ public class ModelTopDreiDateien extends SwingWorker<Void, ArrayList<ModelDatei>
 		// verwendet werden kann.
 		topDrei.clear();
 
-		// Fuellen der ArrayList mit drei Dummy-Dateien für den Vergleich; eigentlich
-		// auch mit Null möglich
+		// Fuellen der ArrayList mit drei Dummy-Dateien fÃ¼r den Vergleich; eigentlich
+		// auch mit Null mÃ¶glich
 		ModelDatei dummy = new ModelDatei();
 		dummy.setGroesse(0);
 		for (int i = 0; i < 3; i++) {
@@ -228,11 +228,11 @@ public class ModelTopDreiDateien extends SwingWorker<Void, ArrayList<ModelDatei>
 
 	// BEMERKUNG:
 	// noch kuerzer waere vermutlich ein Sortieren in der process-Methode;
-	// hier aus didaktischen Gründen und aufgrund der Aufgabenstellung anders
+	// hier aus didaktischen GrÃ¼nden und aufgrund der Aufgabenstellung anders
 	// implementiert.
 	// Beispielhaft hier dargestellt
 
-	// im FileVisitor nur folgendes prüfen:
+	// im FileVisitor nur folgendes prÃ¼fen:
 //	if (neueDateiGroesse > topDrei.get(2).getGroesse()) {
 //		publish(neueDatei)
 //	}
